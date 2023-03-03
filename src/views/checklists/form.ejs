@@ -6,7 +6,7 @@
         class="input"
         type="text"
         name="checklist[name]"
-        placeholder="Lista de Tarefas"
+        placeholder="Insert new list name"
         value="<%= checklist.name %>" />
       <% if(checklist.error && checklist.error.hasOwnProperty("name")) { %>
       <p class="is-danger help"><%= checklist.error.name.message %></p>
